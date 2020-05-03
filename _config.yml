@@ -1,1 +1,33 @@
-theme: jekyll-theme-cayman
+title: Python 周报
+description: 提供关于 Python 的资讯、教程和信息，也包括对 Python 开发者有价值的信息。
+show_downloads: false
+
+baseurl:  # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
+url: "https://pyweekly.qiwihui.com" # change this to the base hostname & protocol for your site
+
+
+google_analytics: "UA-46660488-11"
+
+# cayman-blog date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+cayman-blog:
+  date_format: "%b %-d, %Y"
+
+theme: # leave it empty
+
+# social
+author: qiwihui
+twitter:
+  username: pikabota
+github:
+  owner_name: qiwihui
+  owner_url: https://github.com/qiwihui
+
+plugins:
+  - jekyll-target-blank
+  - jekyll-feed
+
+target-blank:
+    rel: nofollow
+
+header_page_refs: ['about']
