@@ -4,7 +4,7 @@ show_downloads: false
 
 baseurl:  # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
 url: "https://pyweekly.qiwihui.com" # change this to the base hostname & protocol for your site
-
+permalink: /:title
 
 google_analytics: "UA-46660488-11"
 
@@ -26,6 +26,7 @@ github:
 plugins:
   - jekyll-target-blank
   - jekyll-feed
+  - jemoji
 
 target-blank:
     rel: nofollow
