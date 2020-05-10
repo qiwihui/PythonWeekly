@@ -26,4 +26,4 @@ Python 相关的新闻和观点。
 
 ## :coffee: 关注我们
 
-RSS 订阅：[PythonWeekly RSS](https://github.com/qiwihui/PythonWeekly/releases.atom)
+RSS 订阅：[PythonWeekly RSS](https://pyweekly.qiwihui.com/feed.xml)
