@@ -4,8 +4,6 @@
 <head>
 
     {% include analytics.html %}
-
-    {% include auto-ads.html %}
     
     <!-- Non social metatags -->
     <meta charset="utf-8">
@@ -87,6 +85,8 @@
         <section class="main-content">
             
             {{ content }}
+
+            {% include auto-ads.html %}
             
             <footer class="site-footer">
                 <!-- SVG icons from https://iconmonstr.com -->
