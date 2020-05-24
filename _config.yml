@@ -7,7 +7,7 @@ url: "https://pyweekly.qiwihui.com" # change this to the base hostname & protoco
 permalink: /:title
 
 google_analytics: "UA-46660488-11"
-# google_adsense: "ca-pub-8935595858652656"
+google_adsense: "ca-pub-8935595858652656"
 
 # cayman-blog date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this

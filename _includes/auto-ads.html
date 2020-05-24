@@ -1,4 +1,21 @@
+<!--
 {% if site.google_adsense %}
 <script data-ad-client="{{ site.google_adsense }}" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
 </script>
+{% endif %}
+-->
+
+{% if page.layout == 'post' %}
+    {% if site.google_adsense %}
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <ins class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="{{ site.google_adsense }}"
+        data-ad-slot="2654019047"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+    {% endif %}
 {% endif %}
